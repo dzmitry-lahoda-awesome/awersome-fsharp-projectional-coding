@@ -30,9 +30,10 @@ You are tasked to create microservice wich aggregates data from SQL native and J
 - Create JSON scripts you used to run agains JSON database.
 - Write definion of OpenAPI
 - Validate all these with parties (Data Engineers for queries and frontend developers for API)
-- Generate F# stubs
+- Template original quries (any custom templating will work fine)
+- Generate F# stubs-types-entries
 - Code wiring logic
-- 
+- Write tests in Gherking language
 
 ## Projects
 
@@ -48,13 +49,15 @@ You are tasked to create microservice wich aggregates data from SQL native and J
 
 - https://github.com/fsprojects/FSharp.Text.RegexProvider 
 
-- https://github.com/fsprojects/TickSpec - tests 
-- https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata/BowlingKata-Fsharp
+- https://github.com/fsprojects/TickSpec - tests
+- https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata/BowlingKata-Fsharp - tests
  
-## Other
-
-- 
-
-
-
-
+ - https://github.com/Fable-Fauna/Fable.Flora - styling user interfaces
+ - https://github.com/fable-compiler/ts2fable - web native APIs
+ 
+### Possible
+ 
+ - generator for ElasticSearch queries
+ - F# native GRPC generator
+ - GraphQL
+ - C bindings with calli
