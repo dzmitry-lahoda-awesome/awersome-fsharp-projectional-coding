@@ -55,35 +55,53 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 
 ## Projects
 
-- https://github.com/Szer/GiraffeGenerator - API
-- https://github.com/panesofglass/FSharp.Data.JsonSchema - API
+### Data
 
-- https://github.com/Zaid-Ajaj/Npgsql.FSharp.Analyzer - SQL
-- https://github.com/rspeele/rezoom.sql - SQL
+- https://github.com/panesofglass/FSharp.Data.JsonSchema - API and validation
 
 - https://github.com/fsharp/FSharp.Data - CSV, JSON, XML (these still lack generation of lenses for immutable and mutable variants)
 
-- https://github.com/fsprojects/FSharp.Interop.Dynamic - to work with JSON as properties instead of hash maps
+- https://github.com/fsprojects/FSharp.Interop.Dynamic - syntax sugar for accessing maps with string keys and object values
 
 - https://github.com/fsprojects/FSharp.Text.RegexProvider 
 
-- https://github.com/fsprojects/TickSpec - tests
-- https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata/BowlingKata-Fsharp - tests
- 
-- https://github.com/Fable-Fauna/Fable.Flora - styling user interfaces
-- https://github.com/fable-compiler/ts2fable - web native APIs
- 
-- https://github.com/fsprojects/FsXaml - windows user interfaces
- 
+- https://github.com/ctaggart/froto - Protobuf (GRPC)
+
+### Environment and configuration
+
 - https://github.com/fsprojects/FSharp.Configuration - YAML, INI, AppSettings, ResX
- 
-- https://github.com/fsprojects/SQLProvider - DDL applied to database -> schema
  
 - https://github.com/Tarmil/FSharp.Data.LiteralProviders - environment variables
 
 - https://github.com/kzu/GitInfo
 
-- https://github.com/ctaggart/froto 
+### API
+
+- https://github.com/Szer/GiraffeGenerator - API
+
+- https://github.com/fable-compiler/ts2fable - web native APIs
+
+### Testing
+
+- https://github.com/fsprojects/TickSpec - tests
+
+- https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata/BowlingKata-Fsharp - tests
+ 
+### User interfaces
+
+- https://github.com/Fable-Fauna/Fable.Flora - styling user interfaces
+
+- https://github.com/fsprojects/FsXaml - windows user interfaces
+
+### Query
+
+- https://github.com/fsprojects/FSharp.Data.GraphQL/
+
+- https://github.com/Zaid-Ajaj/Npgsql.FSharp.Analyzer - SQL
+
+- https://github.com/rspeele/rezoom.sql - SQL
+
+- https://github.com/fsprojects/SQLProvider - DDL applied to database -> schema
 
 - https://github.com/fsprojects/FSharp.Data.GraphQL/
 
@@ -111,6 +129,5 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 - https://en.wikipedia.org/wiki/Grammar-oriented_programming
 - https://en.wikipedia.org/wiki/Language-oriented_programming
 - https://en.wikipedia.org/wiki/Domain-specific_language
-- https://en.wikipedia.org/wiki/Data-driven_programming
 - https://en.wikipedia.org/wiki/Extensible_programming
 - https://arxiv.org/pdf/1904.11254.pdf 
