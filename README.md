@@ -82,8 +82,12 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 - https://github.com/kzu/GitInfo
 
 - https://github.com/ctaggart/froto 
- 
-### Possible
+
+## Possible patterns
+
+- Avoid mapping native_case to NativeCase during code generation
+
+### Possible projects
  
  - generator for ElasticSearch queries
  - F# native GRPC generator
