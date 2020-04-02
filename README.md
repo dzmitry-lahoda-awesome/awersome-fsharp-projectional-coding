@@ -14,7 +14,7 @@
 
 - Programs are texts, not binary ASTs as in [Intentional Programming](https://en.wikipedia.org/wiki/Intentional_programming)
 
-- `Contract/api first` is subset of `Projectional coding`
+- `Contract/api first` and [generator supported code first](https://docs.microsoft.com/en-us/ef/core/) approaches subset of `Projectional coding`. If you cannot generate projection  from `code first` you are not doing `projectional coding`.
 
 # Examples
 
@@ -126,7 +126,8 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
  - generator for ElasticSearch queries
  - F# native GRPC generator
  - GC free untyped C bindings with calli
- - Some modelling languages
+ - Some modelling languages (graphviz, plantuml)
+ - generate API from HTTP traces (or generate specification from traces and then code from specification)
  
 ## Why now?
 
