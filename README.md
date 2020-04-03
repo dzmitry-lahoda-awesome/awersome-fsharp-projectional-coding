@@ -121,7 +121,7 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 
 - Avoid mapping `native_case` or `property name with spaces` to `NativeCase` during code generation to improve searchability (do not map even when mapping manually)
 
-### Possible projects
+## Possible projects
  
  - generator for ElasticSearch queries
  - F# native GRPC generator
