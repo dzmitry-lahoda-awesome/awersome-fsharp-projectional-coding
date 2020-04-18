@@ -1,5 +1,6 @@
 # Projectional coding (or projection driven development) in F#
 
+0. Think to make CRUD fast and win Python/TypeScript developers.
 1. Code all external calls, contracts, and integrations interactively in original language of involved systems.
 2. Generate F# centric integration code.
 3. Write F# idiomatic wiring-logic code.
