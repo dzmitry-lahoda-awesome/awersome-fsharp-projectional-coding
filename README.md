@@ -1,11 +1,11 @@
-# Projectional coding (or projection driven development) in F# 🍵💊
+# projectional coding (or projection driven development) in F# 🍵💊
 
 0. Think to make CRUD fast and win Python/TypeScript developers.
 1. Code all external calls, contracts, and integrations interactively in original language of involved systems.
 2. Generate F# centric integration code.
 3. Write F# idiomatic wiring-logic code.
 
-## Related
+## related
 
 - [Language projection generators for Windows Runtime](https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files) to feel it as native as possible, but for broader set of problems
 
@@ -25,7 +25,7 @@ For each example there should be separate folder. Each folder subfolders. Each s
 
 You are tasked to create microservice wich aggregates data from SQL native and JSON native databases.
 
-### Possible steps
+### possible steps
 
 - Create SQL scripts which do the job against first database
 - Create JSON scripts to run agains JSON database
@@ -35,7 +35,7 @@ You are tasked to create microservice wich aggregates data from SQL native and J
 - Code wiring logic
 - Write tests in Gherking language (provide these to Testers)
 
-### Analysis
+### analysis
 
 - We use as much of discovery phase artifacts as possibe
 - We communicate as effectively as possible (we will have iterate many times as system evolves)
@@ -46,29 +46,29 @@ You are tasked to create microservice wich aggregates data from SQL native and J
 
 You have to read configurations in microservice in hosted environment. 
 
-### Steps
+### steps
 - Generate configuration from known files (as these will be provided) in JSON
 - Generate configuration from environment variables (provide all these as part of local build-run scripts)
 - Wire custom hierarchy of choices
 - Change wiring and configuration if host changes
 
-### Analysis
+### analysis
 
 We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... (I have several pros and cons for these, need to recall, but proposed solution with compile time configuration still makes sense - software is much harded to break because of miss configuration)
 
-## Problem 3
+## problem 3
 
 Modelling authorization API with SQL(identity source), Gremlin(scopes and right modelling) and GraphQL(API modelling).
 
-## Problems
+## problems
 
 - hackatons
 - MVP and PoC
 - console tools
 
-## Projects
+## projects
 
-### Data
+### pata
 
 - https://github.com/panesofglass/FSharp.Data.JsonSchema - API and validation
 
@@ -80,7 +80,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 
 - https://github.com/ctaggart/froto - Protobuf (GRPC)
 
-### Environment and configuration
+### environment and configuration
 
 - https://github.com/fsprojects/FSharp.Configuration - YAML, INI, AppSettings, ResX
  
@@ -88,7 +88,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 
 - https://github.com/kzu/GitInfo
 
-### API
+### api
 
 - https://github.com/Szer/GiraffeGenerator - server (stub) API
 
@@ -98,19 +98,19 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 
 - https://github.com/fsprojects/SwaggerProvider - client generator
 
-### Testing
+### testing
 
 - https://github.com/fsprojects/TickSpec - tests
 
 - https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata/BowlingKata-Fsharp - tests
  
-### User interfaces
+### user interfaces
 
 - https://github.com/Fable-Fauna/Fable.Flora - styling user interfaces
 
 - https://github.com/fsprojects/FsXaml - windows user interfaces
 
-### Query
+### query
 
 - https://github.com/fsprojects/FSharp.Data.GraphQL/
 
@@ -122,7 +122,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 
 - https://github.com/fsprojects/FSharp.Data.GraphQL/
 
-## Possible patterns
+## possible patterns
 
 ### Zero mapping approach
 
@@ -130,7 +130,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 - That reduced time we create mappings, chance of mapping errors
 - Speed up communication with other parties as we share the names of properties with same literals
 
-## Possible projects
+## possible projects
  
  - generator for ElasticSearch queries
  - F# native GRPC generator
@@ -138,7 +138,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
  - Some modelling languages (graphviz, plantuml)
  - generate API from HTTP traces (or generate specification from traces and then code from specification)
  
-## Why now?
+## why now?
 
 - acceptancy of polyglot programming
 - opensource of parsers-compilers-ides
@@ -146,7 +146,7 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 - possibility to extend build and generation via packages
 - unrestanding the need to projection specific for language and richness of  F# for that 
  
-## List of related concepts
+## list of related concepts
 
 - https://en.wikipedia.org/wiki/Grammar-oriented_programming
 - https://en.wikipedia.org/wiki/Language-oriented_programming
